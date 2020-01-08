@@ -289,5 +289,5 @@ int main(int argc, char *argv[])
 {
 	printf("AES Tests : %s\n", aes_test() ? "SUCCEEDED" : "FAILED");
 
-	return (0);
+	return 0;
 }
